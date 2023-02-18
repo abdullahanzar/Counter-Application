@@ -1,0 +1,42 @@
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: -webkit-fill-available;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+.main-counter {
+  display: flex;
+  border: 7px solid black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 55px;
+}
+
+.leftbt,
+.rightbt,
+.reset {
+  background-color: antiquewhite;
+  border: none;
+  padding: 30px 57px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 4px 2px;
+  color: white;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+}
